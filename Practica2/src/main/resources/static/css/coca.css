@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 feb 2024, 18:08:32
+    Author     : roger
+*/
+box blue{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+box blue{
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+            padding-top: 60px;
+            text-align: center;
+        }
+        .image {
+            width: 30%;
+            height: auto;
+        }
+        .text {
+            padding: 20px;
+            text-align: justify;
+        }

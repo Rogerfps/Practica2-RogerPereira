@@ -1,0 +1,91 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 feb 2024, 14:23:04
+    Author     : roger
+/*
+
+*/
+
+/*
+Aqui los estilos del header
+*/
+/* Estilos del carrusel */
+
+
+/* Estilos del área de navegación */
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+
+
+.container_logo{
+    height: 75px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+.container_logo img{
+    height: 75px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+
+#navbar{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: #a8ab9b;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li:hover{
+    background-color: #e0c690;
+    
+}
+#navbar ul li:hover a{
+    color: red;
+}
+
+
+
+/*
+Aqui estilos del carrusel
+*/
+
+#carrusel {
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding: 20px 0;
+    text-align:center;
+    height: 600px;
+    border: 1px solid grey;
+    background-image: url(''); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-color: #d41319;
+}
+
+/*
+Aqui estilos del main
+*/
